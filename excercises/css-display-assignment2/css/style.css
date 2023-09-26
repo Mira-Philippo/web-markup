@@ -1,0 +1,14 @@
+.box-model p{
+  display: flow-root;
+  padding: 20px;
+  border-style:solid;
+  border-color: red;
+  border-width: 15px;
+}
+
+section.box-model {
+  width: auto;
+  margin: 0 auto;
+  background-color: aquamarine;
+  padding:20px;
+}
