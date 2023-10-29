@@ -248,3 +248,7 @@ article.detail>p.detail{
     display: block;
   }
 }
+
+fieldset{
+  visibility: none;
+}
