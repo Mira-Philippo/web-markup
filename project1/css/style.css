@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+
+.sideimg1{
+  float: left;
+  position: absolute;
+  top: 2em;
+  left:63em;
+}
+.sideimg2{
+  float: left;
+  position: absolute;
+  top: 5em;
+  left: 53em;
+}
+
+h1{
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2em;
+  margin-top:0pt;
+}
+
+h2{
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5em;
+}
+
+.navbutton{
+  border-bottom: 3pt;
+  border-left: 0pt;
+  border-right: 1pt;
+  border-right-color: lightgray;
+  border-top: 0pt;
+  border-style: solid;
+  border-bottom-color: #999999;
+  text-align: center;
+  height:3em;
+  line-height: 3em;
+  width: auto;
+  flex: auto;
+  font-family: "Asap", sans-serif;
+  font-size: 1.5em;
+  display: block;
+}
+.navbutton > a {
+  display: block;
+  width: 100%;
+  height:100%;
+}
+
+.navbutton:hover{
+  border-bottom-color: #26547C;
+}
+
+.navselected{
+  border-bottom-color: #26547C;
+}
+.navselected:hover{
+  border-bottom-color: #78C3FB;
+}
+
+ul.navigation{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-left: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  border-bottom-width: 1.5em;
+  border-bottom-color: #78C3FB;
+  border-bottom-style: solid;
+  list-style-type: none;
+}
+
+body{
+  margin: 0pt;
+}
+
+.headerimg{
+  height: 100%;
+  width: 100%;
+  box-shadow: 0px 5px 5px rgb(136, 136, 136);
+}
+
+.maintext{
+  width: 35em;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+  margin-left: 10em;
+}
+
+h1.contact{
+  margin-bottom: 0pt;
+}
+h1:first-letter{
+  text-transform: uppercase; /*This is scummy, i know lol. */
+}
+
+.leftblock{
+  background-color: #78C3FB;
+  width:8em;
+  border-left-style: solid;
+  border-left-width: 2em;
+  border-color: #26547C;
+  position: relative;
+}
+
+.leftblock.contact{
+  background-color: #78C3FB;
+  width:8em;
+  position: relative;
+  border-left-style: none;
+}
+
+footer{
+  padding:1em;
+  border-top-color: #78C3FB;
+  border-top-style: solid;
+  border-top-width: 2em;
+  font-family: "Noto Sans", sans-serif;
+  text-indent: 3em;
+}
+
+p.bottom{
+  margin-bottom:0pt;
+}
+
+p.form{
+  display:inline-block;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5em;
+}
+p.small{
+  color:#999999;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.8em;
+  margin:0.1em;;
+}
+
+label{
+  display:inline-block;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5em;
+}
+
+input[type=text], input[type=email], input[type=submit], textarea{
+  width:80%;
+  height:3em;
+  font-size:1em;
+  font-family: "Noto Sans", sans-serif;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #999999;
+  border-radius: 5px;
+  margin-bottom: 1.5em;
+  background-color: white;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=submit]:hover, textarea:focus{
+  background-color: white;
+  border-color: #26547C;
+  border-width: 2px;
+  outline:none;
+  color:#26547C;
+}
+
+form{
+  position: relative;
+}
+
+legend{
+  margin-top:1em;
+}
+
+input[type=submit]{
+  position:relative;
+  left:50%;
+  width: 100%;
+  cursor: pointer;
+}
+
+textarea{
+  position:absolute;
+  left:31em;  
+  width: 40em;
+  top:1em;
+  height: 20.5em;
+  text-align: left;
+  resize:none;
+}
+
+a:visited, a:link{
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+  color:#26547C;
+}
+
+a:active{
+  color:#78C3FB;
+}
+
+article.detail>h2{
+  display:inline;
+  position: absolute;
+  top: 0em;
+  left: 32em;
+  width:450%
+}
+
+article.detail>p{
+  display:inline;
+  position: absolute;
+  top: 3em;
+  left: 48em;
+  width: 550%;
+}
+
+article.detail>h2.detail{
+  display:inline;
+  position: absolute;
+  top: 13em;
+  left: 32em;
+  width:450%
+}
+
+article.detail>p.detail{
+  display:inline;
+  position: absolute;
+  top: 22em;
+  left: 48em;
+  width: 550%;
+}
+
+.gallery{
+  display:flex;
+  width: 1000%;
+}
+.col{
+  flex: 1;
+}
+
+@media screen and (max-width: 576px) {
+  .gallery {
+    display: block;
+  }
+}
