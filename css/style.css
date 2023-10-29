@@ -1,24 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 
+.invisible{
+  visibility: hidden;
+  font-size: 0pt;
+}
 
 .sideimg1{
   float: left;
   position: absolute;
   top: 2em;
   left:63em;
+  z-index: 9998;
 }
 .sideimg2{
   float: left;
   position: absolute;
   top: 5em;
   left: 53em;
+  z-index: 9999;
 }
 
 h1{
   font-family: "Noto Sans", sans-serif;
   font-size: 2em;
   margin-top:0pt;
+  word-spacing:normal;
+  letter-spacing:normal; /*This is scummy but i couldn't put it in a better place really...*/
 }
 
 h2{
@@ -92,9 +100,15 @@ body{
 
 h1.contact{
   margin-bottom: 0pt;
+  padding-left: 5em;
 }
 h1:first-letter{
   text-transform: uppercase; /*This is scummy, i know lol. */
+}
+
+.indextitle{
+  padding-left: 5em;
+  width: 400%;
 }
 
 .leftblock{
@@ -243,12 +257,39 @@ article.detail>p.detail{
   flex: 1;
 }
 
-@media screen and (max-width: 576px) {
-  .gallery {
-    display: block;
-  }
+table{
+  margin-left: 10em;
+  border-color: #26547C;
+  border-width: 2pt;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+tr{
+  font-family: "Asap", sans-serif;
+  background-color: #FFF;
+}
+tr:nth-child(even){
+  background-color: #CFF;
+}
+
+
+aside{
+  margin-left: 10em;
+  width: 300%;
+  padding: 0.5em;
+  font-family: "Asap", sans-serif;
 }
 
 fieldset{
   border: none;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    display: block;
+  }
+}
+
