@@ -1,0 +1,14 @@
+I'll start this off quickly with that i enjoyed the lessons and am surprisingly happy with how the 
+website turned out.
+
+I added a requirments.md file as a sort of checklist for myself of all the things we had to do, 
+including why i think i achieved them.
+
+I did not add a mobile.png to the design folder as we didn't have to make a mobile design for
+web design and as such i didn't have it.
+
+There are slight differences between the webdesign and webmarkup site. Things like the
+footer missing and images not being exactly aligned.
+The footer is missing in webdesign because there was no more room at the bottom and webdesign pages had a size limit so i couldn't have it scroll or something. I did add it in the webmarkup site.
+
+Images being in a different place on the detail pages are because i couldn't get them to be in the correct place and play nice with the text so i decided to just have them underneath each other. This is actually what my original design for the webdesign site was.

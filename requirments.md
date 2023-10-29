@@ -19,7 +19,7 @@ Sufficient
 ✓ Uses img element with an image.  //Many images are used
 ✓ Uses an unordered list  //Used in the navbar
 
-Grading group 2: Advanced HTML = 20 points? I think i got everything but i did half-ass some.
+Grading group 2: Advanced HTML = 20 points? I think i got everything
 Excellent
 ✓ Uses type attribute with value "text/css" for the stylesheet.  //In head
 ✓ Uses favicon.  //In Head
@@ -41,7 +41,7 @@ Sufficient
 ✓ Uses form tag.  //Used on the contact page
 ✓ Uses em tag.  //Used on the activities page
 
-Grading group 3: Basic CSS = 20 Points? Again i kinda half-assed some...
+Grading group 3: Basic CSS = 20 Points? I think i did get everything
 Excellent
 ✓ Uses Google fonts type according to design. (https://fonts.google.com/)  //Top of the file
 ✓ Uses property text-transform in uppercase.  //Half assed it and used it to capitalize the first letter of an H1
@@ -54,7 +54,7 @@ Sufficient
 ✓ Uses property text-indent.  //Used in the footer to move the copyright information slightly
 ✓ Uses property word-spacing  //Same as two above
 
-Grading group 4: Advanced CSS = 20 points. This time i think i did do well on all.
+Grading group 4: Advanced CSS = 20 points. I think i did do well on all.
 Excellent
 ✓ Uses at least 2 position properties (static, absolute, relative or fixed).  //Used absolute and relative
 ✓ Uses float property.  //Images on index
@@ -73,7 +73,7 @@ Sufficient
 
 Grading group 5: Responsiveness & Metadata
 Excellent
-✓ Uses media queries for at least 2 different devices.*  //Actually i did this somehow, only visible on the gallery page though because i was getting tired.
+✓ Uses media queries for at least 2 different devices.*  //Actually i did this somehow, only visible on the gallery page though because i was getting tired. Thankfully there is not a requirement on how many things have to change so technically i did do this.
 ✓ Uses closing tags for all single and paired tags in the right way.  //God i hope so haha
 ✓ Uses description attribute value with 50–160 characters.  //On index page
 ✓ Uses keywords attribute with 5 keywords.  //Also on index
@@ -81,14 +81,14 @@ Excellent
 ✓ Uses Flexbox or Grid  //Used in navbar
 ✓ CSS is validated with http://jigsaw.w3.org/css-validator, with profile "CSS level 3 + SVG"  //No warnings at all!
 without warnings.
-✓ HTML 5 is validated with https://validator.w3.org without warnings. //Had to add invisible h1 elements to get around a stupid warning.
+✓ HTML 5 is validated with https://validator.w3.org without warnings. //Had to add invisible h2 elements to get around a stupid warning.
 Sufficient
 ✓ Is not using front-end libraries like bootstrap, w3.css etc.  //Didn't touch it
 ✓ Is not using tag br.  //Why would i
 ✓ Is not using tag hr.  //Same
 ✓ Uses attribute charset utf-8.  //Emmet
 ✓ Uses author attribute value.  //Added my own name there
-✓ Uses property z-index for a "cookies" message with value 9999.  //So, i'm pretty sure we never learned what we needed for this, including javascript. So instead of a cookies message i made the images on the index page have this index. Since this is here to show that i understand how it works i hope this is fine aswell!
+✓ Uses property z-index for a "cookies" message with value 9999.  //So, i'm pretty sure we never learned what we needed for this, including javascript. So instead of a cookies message i made the images on the index page have this index. Since this is here moreso to show that i understand how it works i hope this is fine aswell!
 ✓ Uses tabs for nested elements to maintain proper indentation level.  //Really hope so, checked everything twice
 ✓ CSS is validated with http://jigsaw.w3.org/css-validator, with profile "CSS level 3 + SVG"  //No errors at all!
 without errors.
